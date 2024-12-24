@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#logoimg{
+    width: 100px;
+    height: 100px;
+    /* margin: 10px; */
+    margin-left: 150px;
+    /* padding: 10px; */
+    border-radius: 50%;
+    
+}
+#headercontent{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+    width: 100%;
+}
+.nav_bar{
+    display: flex;
+    margin: 20px;
+    /* padding: 30px; */
+    gap: 40px;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    margin-right: 200px;
+}
+a{
+    text-decoration: none;
+    align-content: center;
+    color: rgb(50, 49, 49);
+}
+a:hover{
+    color: rgb(81, 81, 240);
+    text-decoration: underline red
+}
+
+@media screen and (max-width: 768px) {
+    #headercontent {
+        flex-direction: column;
+        align-items: center;
+    }
+}
